@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3903
+
+vim-xsnippet  is  a  simple  Vim  plugin  which enables  one to post
+code snippets to the XSnippet.org pastebin service directly from Vim.
+
+Requirements:
+    - Python 2.x
+    - Vim 7.x built with '+python' option
+
+Using:
+    :call PostToXsnippet() --- posts the content of the current buffer to the XSnippet.org
+                               and puts the snippet's url to the clipboard
+
+Info:
+    Author:   Roman Podolyaka (roman.podolyaka@gmail.com)
+    License:  GNU GPL v3
+    Homepage: https://github.com/bloodeclipse/vim-xsnippet
